@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@200&family=Righteous&family=Russo+One&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap');
+
+section{
+    position: relative;
+    background: #161623;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url("../assets/images/youtube.webp"); */
+}
+
+.RegisterMain{
+    background-color: red;
+}
+
+.box__divs{
+    
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#07ff8b,#e91e63);
+    border-radius: 50%;
+    transform: translate(-250px, -90px);
+}
+section::after{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(#2196f3,#ff8e31);
+    border-radius: 50%;
+    transform: translate(250px,120px);
+}
+.box{
+    position: relative;
+    min-width: 350px;
+    min-height: 400px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    z-index: 10;
+    padding: 20px;
+    backdrop-filter: blur(25px);
+}
+.box h3{
+    color: #fff;
+    margin-bottom: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.box .list{
+    position: relative;
+    display: flex;
+    padding: 10px 0;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.box:hover{
+    /* background: rgba(255,255,255,0.644);
+    box-shadow: -15px 30px 50px rgba(0,0,0,0.5);;
+    z-index: 1000; */
+    cursor: pointer;
+}
+.box .list .imgbx{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box .list .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .list .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin-left: 10px;
+}
+.box .list .content .rank{
+    position: absolute;
+    right: -50px;
+    color: #03a9f4;
+    transition: 0.5s;
+    font-size: 2em;
+    font-weight: bold;
+}
+.box .list .content .rank small{
+    font-weight: 500;
+    opacity: 0.25;
+}
+.box .list:hover .content .rank{
+    right: 20px;
+}
+.box .list .content h4{
+    line-height: 1.2em;
+    font-weight: 200;
+    transition: 0.5s;
+}
+.box .list .content p{
+    font-size: 0.75em;
+    transition: 0.5s;
+    color: rgba(255,255,255,0.692);
+}
+.box .list:hover .content h4,
+.box .list:hover .content p{
+    color: #333;
+}
+
+.AlreadyMemeber{
+    font-family: 'Alkalami', serif;
+}
+

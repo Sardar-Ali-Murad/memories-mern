@@ -1,0 +1,143 @@
+.post__Header{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    align-items: center;
+    height: 100px;
+}
+.Form__Main{
+    /* display: flex; */
+     flex: 1;
+    /* margin-bottom: 100px; */
+    
+}
+
+.memories__Overlay{
+    margin-right: 20px;
+}
+.Form__BigMain{
+    margin-bottom: 100px;
+    flex: 1;
+}
+
+.post__Form__Main{
+    /* background-color: red; */
+    /* display: flex; */
+}
+.post__Wrapper{
+  display: flex;
+  width: 100%;
+}
+.pagination{
+    /* background-color: red; */
+    width: 400px;
+    margin: auto;
+    /* margin-left: 40%; */
+    margin-top: 30px;
+}
+.header__Last__Overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__Circle{
+    background-color: lightcoral;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.post__Header button{
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.post__Form{
+width: auto;
+    
+}
+
+.memories__Overlay{
+    display: flex;
+    flex-direction: column;
+  
+    /* width: 20%; */
+    background-color: gray;
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.memories__Overlay input,textarea{
+    width: 200px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.memories__Overlay button{
+    width: 200px;
+}
+
+.post__Form__Main{
+    padding: 2rem 7%;
+}
+
+
+
+
+@media screen and (max-width:450px){
+    .memories__h1{
+        font-size: 16px;
+        margin-top: 26px;
+    }
+    .post__Header{
+        padding: 0px 1rem;
+    }
+    .post__Form{
+        /* margin-right: 300px; */
+        /* margin-left: 300px; */
+    }
+}
+
+@media screen and (max-width:700px){
+   
+    .post__Form{
+        /* margin-right: 300px; */
+        /* margin-right: 400px; */
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .post__Form{
+        margin-right: 200px;
+
+    }
+    .Form__Main{
+        display: flex;
+    }
+    .post__Wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px){
+    .Form__Main{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+    .pagination{
+        /* background-color: red; */
+        width: 200px;
+    }
+
+}
